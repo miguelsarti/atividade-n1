@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+
+.class {
+    font-size: 1rem;
+    color: rgb(48, 48, 48);
+    font-weight: bold;
+}
+
+.first-section {
+    align-items: center;    
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+    margin-right: 1%;
+    gap: 2%;
+    margin-top: 3rem;
+}
+
+.red-block {
+    background-color: rgb(243, 63, 31);
+    width: 68%;
+    height: 30vh;
+}
+
+.red-block2 {
+    background-color: rgb(243, 63, 31);
+    width: 28%;
+    height: 30vh;
+}
+
+.second-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1.5rem;
+    gap: 2%;
+}
+
+.yellow-block {
+    background-color: rgb(255, 196, 32);
+    width: 40%;
+    height: 70vh;
+}
+
+.purple-blocks {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 56%;
+}
+
+.purple-block, .purple-block2 {
+    height: 34vh;
+    width: 100%;
+    background-color: purple;
+}
+
+.third-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+    margin-right: 1%;
+    gap: 2%;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.blue-block, .blue-block3 {
+    width: 28.5%;
+    background-color: rgb(40, 107, 112);
+    height: 20vh;
+}
+
+.blue-block2 {
+    width: 37%;
+    background-color: rgb(40, 107, 112);
+    height: 20vh;
+}
